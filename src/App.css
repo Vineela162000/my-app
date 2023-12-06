@@ -1,5 +1,8 @@
+body{
+  background-color: lightgrey;
+}
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
@@ -14,7 +17,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: red;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -36,3 +39,23 @@
     transform: rotate(360deg);
   }
 }
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+li {
+  position: relative;
+  padding: 10px 20px;
+  font-size: 18px;
+  color:red;
+  border-radius: 5px;
+  margin-bottom: 1em;
+  margin-top: .5em;
+  transition: all 0.2s ease-in-out;
+}
+
